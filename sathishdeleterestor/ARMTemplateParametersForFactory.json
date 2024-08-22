@@ -1,0 +1,12 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sathishdeleterestor"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/f804bb04-809d-41f0-8327-a0ca357363e4/resourceGroups/Dev/providers/Microsoft.Storage/storageAccounts/sathishdevstorageaus"
+		}
+	}
+}
