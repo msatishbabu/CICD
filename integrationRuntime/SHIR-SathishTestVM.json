@@ -1,0 +1,6 @@
+{
+	"name": "SHIR-SathishTestVM",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

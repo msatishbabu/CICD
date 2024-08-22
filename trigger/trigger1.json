@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/inputfiles/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/f804bb04-809d-41f0-8327-a0ca357363e4/resourceGroups/Dev/providers/Microsoft.Storage/storageAccounts/sathishdevstorageaus",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
